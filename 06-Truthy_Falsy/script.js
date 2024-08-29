@@ -2,7 +2,7 @@
 
 console.log('Truthy and falsyy values');
 
-//Falsy values
+//Falsy values: 0, '', false, undefined, null, NaN
 
 console.log(Boolean(0));
 
@@ -17,7 +17,7 @@ console.log(Boolean(false));
 console.log(Boolean(NaN));  //Not s Number
 
 
-//Truthy Values
+//Truthy Values: 1, 'str', true, [], {}, -1, function() {}
 
 console.log(Boolean(1));
 
