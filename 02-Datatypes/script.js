@@ -1,7 +1,7 @@
 /* Datatypes
  
 Primitive Datatype
-    Number, String, Boolean, Undefined, Null, Symbole, Big Int
+    Number, String, Boolean, Undefined, Null, Big Int
 
 Non Primitive Datatype
     Object, Array, Function, Date
