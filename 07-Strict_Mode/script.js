@@ -8,6 +8,7 @@ let user = 'surya';
 use = 'siva';
 
 console.log(user);
+console.log(use);
 
 const interface = 'CAr';  
 console.log(interface);
