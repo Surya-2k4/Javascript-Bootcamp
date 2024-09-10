@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=" />
+    <title>Javascript Bootcamp</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+      
+      body {
+        background: rgb(238, 174, 202);
+        background: radial-gradient(
+          circle,
+          rgba(238, 174, 202, 1) 0%,
+          rgba(148, 187, 233, 1) 100%
+        );
+      }
+      
+      .main {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      input[type='text'] {
+        padding: 10px;
+        font-size: 1rem;
+        border: 2px solid #ccc;
+        border-radius: 5px;
+        margin-bottom: 10px;
+      }
+      
+      #name-output {
+        font-size: 1.2rem;
+        font-weight: bold;
+        padding-bottom: 20px;
+      }
+      
+      select {
+        padding: 10px;
+        font-size: 1rem;
+        border: 2px solid #ccc;
+        border-radius: 5px;
+        margin-bottom: 10px;
+      }
+      
+      #selected-car {
+        font-size: 1.2rem;
+        font-weight: bold;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" />
+      <p id="name-output">Typed name will appear here</p>
+      <label for="pet">Choose a pet:</label>
+      <select id="pet" name="pet">
+        <option value="Cat">Cat</option>
+        <option value="Kittyy">Kittyy</option>
+        <option value="puppyy">puppyy</option>
+      </select>
+      <p id="selected-pet">Selected pet will appear here</p>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
